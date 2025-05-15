@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void addition (angka1, angka2);
+
 int main(){
     int angka1, angka2, pilihan;
     printf("Selama datang di kalkulator kelompok 'Javascript'!\n");
