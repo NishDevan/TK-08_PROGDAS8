@@ -9,3 +9,4 @@
 4. Otniel Kristian Sianturi (2406401571)
 
 ## Penjelasan Project
+Kelompok *Javascript* akan membuat sebuah kalkulator sederhana yang terdiri dari operasi Penjumlahan, Pengurangan, Perkalian, serta Pembagian.  
