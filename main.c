@@ -1,6 +1,36 @@
 #include <stdio.h>
+#include "multifunc.h"
 
 int main(){
-    printf("Hello test 2");
+    int angka1, angka2, pilihan;
+    printf("Selama datang di kalkulator kelompok 'Javascript'!\n");
+
+    printf("Masukkan angka pertama anda : ");
+    scanf("%d", &angka1);
+
+    printf("Masukkan angka kedua anda : ");
+    scanf("%d", &angka2);
+
+    printf("Apa yang anda ingin lakukan? (1: Penjumlahan, 2: Pengurangan, 3: Perkalian, 4: Pembagian) : ");
+    scanf("%d", &pilihan);
+
+    switch (pilihan) {
+        case 1:
+            // Untuk Penjumlahan
+            break;
+        case 2:
+            // Untuk Pengurangan
+            break;
+        case 3:
+            int result = multiply(angka1, angka2);
+            printf("Hasil: \n", result);
+            break;
+        case 4:
+            // Untuk Pembagian
+            break;
+        default:
+            printf("Terjadi kesalahan, mohon untuk mengecek pilihan anda!");
+            break;
+    }
     return 0;
 }
