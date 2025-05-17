@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void addition (int angka1, int angka2);
+
 int main(){
     int angka1, angka2, pilihan;
     printf("Selama datang di kalkulator kelompok 'Javascript'!\n");
@@ -15,7 +17,7 @@ int main(){
 
     switch (pilihan) {
         case 1:
-            // Untuk Penjumlahan
+            addition(angka1, angka2);
             break;
         case 2:
             // Untuk Pengurangan
@@ -31,4 +33,11 @@ int main(){
             break;
     }
     return 0;
+}
+
+void addition(int angka1, int angka2) {
+    int hasil;
+
+    hasil = angka1 + angka2;
+    printf("Hasil dari penjumlahan tersebut: %d", hasil);
 }
