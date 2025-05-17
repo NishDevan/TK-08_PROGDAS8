@@ -27,7 +27,7 @@ int main(){
             // Untuk Perkalian
             break;
         case 4:
-            
+            division(angka1, angka2);
             break;
         default:
             printf("Terjadi kesalahan, mohon untuk mengecek pilihan anda!");
@@ -48,6 +48,10 @@ void division(int angka1, int angka2){
     
     if(angka2 != 0){
         hasil = angka1 / angka2;
+        printf("Hasil dari penjumlahan tersebut: %d", hasil);
+    }
+    else{
+        printf("Cant divide by zero");
     }
     
 }
