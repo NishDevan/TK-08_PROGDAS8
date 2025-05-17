@@ -46,6 +46,9 @@ void addition(int angka1, int angka2) {
 void division(int angka1, int angka2){
     int hasil;
     
-    hasil = angka1 / angka2;
+    if(angka2 != 0){
+        hasil = angka1 / angka2;
+    }
+    
 }
    
