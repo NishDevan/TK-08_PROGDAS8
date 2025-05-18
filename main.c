@@ -20,7 +20,7 @@ int main(){
             addition(angka1, angka2);
             break;
         case 2:
-            subtraction(angka1, angka2);
+            // Untuk Pengurangan
             break;
         case 3:
             // Untuk Perkalian
@@ -42,9 +42,3 @@ void addition(int angka1, int angka2) {
     printf("Hasil dari penjumlahan tersebut: %d", hasil);
 }
 
-void subtraction(int angka1, int angka2) {
-    int hasil;
-
-    hasil = angka1 - angka2;
-    printf("Hasil dari pengurangan tersebut: %d", hasil);
-}
