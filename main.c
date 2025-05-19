@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include "multifunc.h"
 
 void addition (int angka1, int angka2);
+void subtraction (int angka1, int angka2);
+void division (int angka1, int angka2);
 
 int main(){
     int angka1, angka2, pilihan;
@@ -20,13 +23,14 @@ int main(){
             addition(angka1, angka2);
             break;
         case 2:
-            // Untuk Pengurangan
+            subtraction(angka1, angka2);
             break;
         case 3:
-            // Untuk Perkalian
+            int result = multiply(angka1, angka2);
+            printf("Hasil: \n", result);
             break;
         case 4:
-            // Untuk Pembagian
+            division(angka1, angka2);
             break;
         default:
             printf("Terjadi kesalahan, mohon untuk mengecek pilihan anda!");
@@ -40,4 +44,24 @@ void addition(int angka1, int angka2) {
 
     hasil = angka1 + angka2;
     printf("Hasil dari penjumlahan tersebut: %d", hasil);
+}
+
+void subtraction(int angka1, int angka2) {
+    int hasil;
+
+    hasil = angka1 - angka2;
+    printf("Hasil dari pengurangan tersebut: %d", hasil);
+}
+
+void division(int angka1, int angka2){
+    int hasil;
+    
+    if(angka2 != 0){
+        hasil = angka1 / angka2;
+        printf("Hasil dari penjumlahan tersebut: %d", hasil);
+    }
+    else{
+        printf("Cant divide by zero");
+    }
+    
 }
