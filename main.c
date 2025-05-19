@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void addition (int angka1, int angka2);
+void division (int angka1, int angka2);
 
 int main(){
     int angka1, angka2, pilihan;
@@ -26,7 +27,7 @@ int main(){
             // Untuk Perkalian
             break;
         case 4:
-            // Untuk Pembagian
+            division(angka1, angka2);
             break;
         default:
             printf("Terjadi kesalahan, mohon untuk mengecek pilihan anda!");
@@ -42,3 +43,15 @@ void addition(int angka1, int angka2) {
     printf("Hasil dari penjumlahan tersebut: %d", hasil);
 }
 
+void division(int angka1, int angka2){
+    int hasil;
+    
+    if(angka2 != 0){
+        hasil = angka1 / angka2;
+        printf("Hasil dari penjumlahan tersebut: %d", hasil);
+    }
+    else{
+        printf("Cant divide by zero");
+    }
+    
+}
