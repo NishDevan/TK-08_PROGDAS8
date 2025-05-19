@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "multifunc.h"
 
 void addition (int angka1, int angka2);
 void subtraction (int angka1, int angka2);
@@ -25,7 +26,8 @@ int main(){
             subtraction(angka1, angka2);
             break;
         case 3:
-            // Untuk Perkalian
+            int result = multiply(angka1, angka2);
+            printf("Hasil: \n", result);
             break;
         case 4:
             division(angka1, angka2);
