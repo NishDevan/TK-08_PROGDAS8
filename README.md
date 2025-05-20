@@ -9,4 +9,9 @@
 4. Otniel Kristian Sianturi (2406401571)
 
 ## Penjelasan Project
-Kelompok *Javascript* akan membuat sebuah kalkulator sederhana yang terdiri dari operasi Penjumlahan, Pengurangan, Perkalian, serta Pembagian.  
+Kelompok *Javascript* akan membuat sebuah kalkulator sederhana yang terdiri dari operasi Penjumlahan, Pengurangan, Perkalian, serta Pembagian. Untuk pembagiannya,
+
+1. Danish Putra Devananda (Addition)
+2. Gorga Friedrik Simatupang (Division)
+3. Jonathan Christopher (Multiplication)
+4. Otniel Kristian Sianturi (Substraction)
